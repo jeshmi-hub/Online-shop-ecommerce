@@ -1,0 +1,28 @@
+.App{
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-shadow:  0 0 35px #eee;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  border: none;
+  outline: none;
+  background:  transparent;
+  cursor: pointer;
+}
+
+@import url("./components/headers/header.css");
+@import url("./components/mainpages/auth/login.css");
+@import url("./components/mainpages/categories/categories.css");
+@import url("./components/Announcement.css");
+@import url("./components/utils/loading/loading.css");
+@import url("./components//mainpages/detailProduct/detailProduct.css");
+@import url("./components/mainpages/products/product.css");
+@import url("./components/mainpages/createProduct/createproduct.css");
+@import url("./components/mainpages/cart/cart.css");
+
